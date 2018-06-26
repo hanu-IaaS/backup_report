@@ -1,10 +1,10 @@
 # Azure Vault Status Report
-### by Cory Burns
 
-Powershell scripts designed to be run in Powershell or as a Azure Automation Runbook that will 
+
+Scripts designed to run in Powershell or as a Azure Automation Runbook that will 
 grab the backup status for last night's Recovery Vault jobs
 
-The CSV will will simply output a plain table report.  The Email (either through Powershell or through 
+The CSV will simply output a plain table report.  The Email (either through Powershell or through 
 an Azure Automation Runbook) will email an HTML table that is nicely formated with color codes for 
 Success, Backups In Progress, and Failures or Warnings.  It also will provide a count of Successes, 
 Failures, etc and output any Vaults that do not have any backups running.
